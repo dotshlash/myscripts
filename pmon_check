@@ -1,4 +1,7 @@
 #!/usr/bin/bash
-pmon=`ps -eaf|grep pmon`
-echo $pmon
+#pmon=`ps -eaf|grep pmon`
+
+echo "`ps -eaf|grep pmon`"
 echo "********************************"
+
+

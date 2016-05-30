@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+pmon=`ps -eaf|grep pmon`
+echo $pmon
+echo "********************************"
